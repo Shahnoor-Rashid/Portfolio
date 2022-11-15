@@ -24,6 +24,7 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  text-decoration: none;
 
 }
 .allign-center{
@@ -225,4 +226,18 @@ nav ul li a{
 
 
 }
+.container .info ul li{
+  text-decoration: none;
+  display: flex;
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+}
 
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
