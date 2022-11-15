@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body{
-  background: #080808;
+  background: #000000;
   color: #fff;
 }
 /* #hero{
@@ -18,13 +18,17 @@ body{
   
 } */
 #hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/heropic.png");
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/devhero.jpg");
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   position: relative;
 
+}
+.allign-center{
+  text-align: center;
+  
 }
 
 .container2{
@@ -58,8 +62,8 @@ body{
   background-color: white;
   border-radius: 3px;
   font-size: 1rem;
-  padding: .2em .8em;
-  margin-top: 2rem;
+  padding: 5px;
+  margin-top: 1px;
 }
  
 /* @media only and screen (max-width: 768px) {
@@ -173,13 +177,52 @@ nav ul li a{
 .section-container3{
   display: flex;
   justify-content:center;
+  align-items: center;
+  margin-bottom: 10px;
+ 
 
 }
 .section-container3 div img{
   width: 40%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+  
+ 
 
 }
 .section-container3 div{
   border: 1px solid white;
-  margin: 10px;
+  margin: 0 auto
 }
+.box5 h5{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.box5 p{
+  font-size: 1rem;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+/* .section-container4 div{
+  border: 1px solid white;
+  margin: 0 auto
+
+ 
+} */
+.section-container4 div{
+  border: 1px solid white;
+  margin: 100;
+  padding: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+
+
+
+
+}
+
