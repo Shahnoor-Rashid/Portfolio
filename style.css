@@ -7,24 +7,19 @@
   box-sizing: border-box;
 }
 body{
-  background: #000000;
-  color: #fff;
+  background: #1a003c;
+  color: rgb(255, 255, 255);
 }
-/* #hero{
-  width: 100%;
-  height: 100vh;
-  background: url(images/heropic.png) no-repeat center / cover
-  
-  
-} */
+
 #hero{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/devhero.jpg");
   height: 80vh;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
   text-decoration: none;
+
 
 }
 .allign-center{
@@ -43,11 +38,13 @@ body{
   text-align: right;
 
 }
-.container2 .info h2{
+.container2 .info h3{
   font-size: 2rem;
   margin-bottom: 1rem;
+  display: inline;
+ 
 }
-.container2 .info h3{
+.container2 .info h4{
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -67,29 +64,29 @@ body{
   margin-top: 1px;
 }
  
-/* @media only and screen (max-width: 768px) {
-  font-size: 10px;
-}    */
+  
 @media screen and (max-width: 600px) {
   h2{
     font-size: 36px;
     line-height: 50px;
   }
-  
-}
+  }
 
 
 
-  /* padding: 1 */
+
 
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  
+  
 }
 .logo{
   width: 180px;
+ 
+ 
 }
 nav ul li{
   display: inline-block;
@@ -111,23 +108,26 @@ nav ul li a{
 .section-container{
   display: flex;
   justify-content:center;
+} 
+  
 
-}
+
+
 .section-container div img{
-  width: 40%;
- 
+  width: 50%;
+
 
 }
 .box1{
-  display: flex;
+  display: block;
+  
   justify-content: space-between;
   align-items: center;
   
 
 }
 .box1 h5{
-  /* text-align: center;
-  align-items: center; */
+ 
   margin: 0 auto;
 }
 .box2{
@@ -146,6 +146,7 @@ nav ul li a{
   border: 1px solid white;
   margin: 10px;
 }
+
 .section-container2{
   display: flex;
   justify-content:center;
@@ -209,15 +210,10 @@ nav ul li a{
   text-align: center;
  
 }
-/* .section-container4 div{
-  border: 1px solid white;
-  margin: 0 auto
 
- 
-} */
 .section-container4 div{
   border: 1px solid white;
-  margin: 100;
+  margin: 50;
   padding: 50px;
   margin-bottom: 20px;
   text-align: center;
@@ -235,9 +231,19 @@ nav ul li a{
 }
 
 
-footer {
+.section-container5 div img{
+  
+  display: block;
+  margin: 0 auto;
+} 
+.section-container5{
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
   text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+  display: flex;
+  justify-content: space-evenly;
+
 }
+
+
